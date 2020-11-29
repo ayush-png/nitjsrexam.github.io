@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    margin-right: 0;
+}
+
+
+.exam{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    line-height: 2.15rem;
+    
+}
+.heading{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.heading h1{
+    margin-left: 20px;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    margin-top: 1.0%;
+    text-align: center;
+    font-style: oblique;
+}
+
+    
+    .btn-math {background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)}
+    .btn-math {
+       margin: 0px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+      
+       
+     }
+
+     .btn-math:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+
+
+     .btn-chem {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+     .btn-chem {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .btn-chem:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .btn-phy {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+      .btn-phy {
+         margin: 10px;
+         padding: 15px 45px;
+         text-align: center;
+         text-transform: uppercase;
+         transition: 0.5s;
+         background-size: 200% auto;
+         color: white;            
+         box-shadow: 0 0 20px #eee;
+         border-radius: 10px;
+         display: block;
+       }
+
+       .btn-phy:hover {
+         background-position: right center; /* change the direction of the change here */
+         color: #fff;
+         text-decoration: none;
+       }
+       
+       .btn-mathgo {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+       .btn-mathgo {
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+        }
+
+        .btn-mathgo:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+        .btn-chemgo {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+        .btn-chemgo {
+           margin: 10px;
+           padding: 15px 45px;
+           text-align: center;
+           text-transform: uppercase;
+           transition: 0.5s;
+           background-size: 200% auto;
+           color: white;            
+           box-shadow: 0 0 20px #eee;
+           border-radius: 10px;
+           display: block;
+         }
+ 
+         .btn-chemgo:hover {
+           background-position: right center; /* change the direction of the change here */
+           color: #fff;
+           text-decoration: none;
+         }
+         .btn-phygo {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-phygo {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+  
+          .btn-phygo:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+          
+         
+         
+
+      
+     
+          .save {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+          .save {
+             margin: 10px;
+             padding: 15px 45px;
+             text-align: center;
+             text-transform: uppercase;
+             transition: 0.5s;
+             background-size: 200% auto;
+             color: white;            
+             box-shadow: 0 0 20px #eee;
+             border-radius: 10px;
+             display: block;
+           }
+ 
+           .save:hover {
+             background-position: right center; /* change the direction of the change here */
+             color: #fff;
+             text-decoration: none;
+           }
+          #att{
+            display: flex;
+          }
+          @media only screen and (max-width:1496px){
+            .exam{
+              margin-top: 5%;
+            }
+          }
+          @media only screen and (max-width:1398px){
+           .heading{
+             margin-left: 18%;
+           }
+          }
+          @media only screen and (max-width:1224px){
+            h3{
+              margin-left: 14%;
+            }
+           }
+           @media only screen and (max-width:1082px){
+            h3{
+              font-size: 1.2rem;
+            }
+            .heading h1{
+              font-size: 2.3rem;
+            }
+           }
+           @media only screen and (max-width:996px){
+         .heading{
+           margin-left: 12%;
+         }
+         .buttons{
+           margin-top: 9%;
+         }
+           }
+           @media only screen and (max-width:902px){
+           .heading h1{
+             font-size: 1.8rem;
+           }
+           h3{
+             font-size: 0.9rem;
+             margin-left: 3%;
+           }
+           }
+           @media only screen and (max-width:756px){
+           .exam{
+             margin-left: 6%;
+           }
+           }
+           @media only screen and (max-width:720px){
+            .heading h1{
+              font-size: 1.5rem;
+            }
+            .heading img{
+              height: 25px;
+              width: 25px;
+            }
+            }
+            @media only screen and (max-width:610px){
+             .buttons{
+               margin-top: 17%;
+             }
+              }
+              @media only screen and (max-width:610px){
+                .heading {
+                  margin-left: 4%;
+                }
+                .exam{
+                  margin-left: 17%;
+                }
+                 }
+                 @media only screen and (max-width:534px){
+                  .heading h1{
+                    font-size: 0.9rem;
+                  }
+                  .heading img{
+                    height: 20px;
+                    width: 20px;
+                  }
+                  h3{
+                    font-size: 0.8rem;
+                    margin-left: 1%;
+                  }
+                   }
+                   @media only screen and (max-width:410px){
+                    .exam{
+                      margin-left: 20%;
+                    }
+                     }
+                     @media only screen and (max-width:380px){
+                      .exam{
+                        margin-left: 25%;
+                      }
+                       }
